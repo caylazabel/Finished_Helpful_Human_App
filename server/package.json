@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Welcome to Helpful Human's at home proficiency challenge! This challenge gauges your knowledge on a few different metrics that we use, in part, to evaluate your skills. In this repo, you will find the assets that are required to replicate the design that is also included in this repo. Both .sketch and .png assets are available.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.1",
+    "chai": "^4.1.2",
+    "debug": "^3.0.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "http-errors": "^1.6.2",
+    "morgan": "^1.8.2",
+    "mongoose": "^4.11.11",
+    "superagent": "^3.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3"
+  },
+  "scripts": {
+    "start": "DEBUG='list*' node server.js",
+    "test": "DEBUG='list*' ./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
