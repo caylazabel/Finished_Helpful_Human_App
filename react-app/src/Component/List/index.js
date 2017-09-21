@@ -34,16 +34,16 @@ export default class List extends Component {
         group: colorGroup,
         page: page
       })
-      path = "http://localhost:3000/api/list/colorGroup/" + colorGroup + "/" + page;
+      path = "http://ec2-54-189-248-112.us-west-2.compute.amazonaws.com:3000/api/list/colorGroup/" + colorGroup + "/" + page;
     } else if (typeof search !== "undefined") {
       this.setState({
         pageType: "search",
         query: search,
         page: page
       })
-      path = "http://localhost:3000/api/list/search/" + search + "/" + page;
+      path = "http://ec2-54-189-248-112.us-west-2.compute.amazonaws.com:3000/api/list/search/" + search + "/" + page;
     } else {
-      path = "http://localhost:3000/api/list/" + page;
+      path = "http://ec2-54-189-248-112.us-west-2.compute.amazonaws.com:3000/api/list/" + page;
       this.setState({
         pageType: "list",
         page: page

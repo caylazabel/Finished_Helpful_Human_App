@@ -18,7 +18,7 @@ export default class Page extends Component {
 
 
     handleSidebarClick(group) {
-      var path = "http://localhost:3000/api/list/colorGroup/" + group + "/1";
+      var path = "http://ec2-54-189-248-112.us-west-2.compute.amazonaws.com:3000/api/list/colorGroup/" + group + "/1";
       axios.get(path)
       .then((result) => {
         window.location.reload();
@@ -28,7 +28,7 @@ export default class Page extends Component {
     }
 
     handleRandomColorClick() {
-      var path = "http://localhost:3000/api/list/random";
+      var path = "http://ec2-54-189-248-112.us-west-2.compute.amazonaws.com:3000/api/list/random";
       axios.get(path)
       .then((result) => {
         browserHistory.push('detail?color=' + result.data.hex);
@@ -44,7 +44,7 @@ export default class Page extends Component {
     }
 
     handleSearch(query) {
-      var path = "http://localhost:3000/api/list/search/" + query + "/1";
+      var path = "http://ec2-54-189-248-112.us-west-2.compute.amazonaws.com:3000/api/list/search/" + query + "/1";
       axios.get(path)
       .then((result) => {
         window.location.reload();
