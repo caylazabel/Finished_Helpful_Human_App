@@ -1,0 +1,20 @@
+{
+  "name": "helpful-human-colors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caylazabel/Finished_Helpful_Human_App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caylazabel/Finished_Helpful_Human_App/issues"
+  },
+  "homepage": "https://github.com/caylazabel/Finished_Helpful_Human_App#readme"
+}
