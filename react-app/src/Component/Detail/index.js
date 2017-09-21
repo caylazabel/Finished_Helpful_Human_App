@@ -12,7 +12,7 @@ export default class Detail extends Component {
     super(props);
     this.state = {
       shades: []
-    }
+    } 
 
     this.handleClick = this.handleClick.bind(this);
     this.handleRandomColorClick = this.handleRandomColorClick.bind(this);
